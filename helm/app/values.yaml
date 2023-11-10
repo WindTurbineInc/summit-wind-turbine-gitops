@@ -12,7 +12,7 @@ namespace:
   argocd:
     name: default
 
-replicaCount: 1
+replicaCount: 5
 
 image:
   repository: image-registry.openshift-image-registry.svc:5000/summit/wind-turbine-app
